@@ -1,0 +1,31 @@
+CRITICAL - 2022-04-11 22:07:17 --> Invalid file: rt_dashboard.php
+#0 C:\xampp\htdocs\rtpintar\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rt_dashboard.ph...')
+#1 C:\xampp\htdocs\rtpintar\system\Common.php(1089): CodeIgniter\View\View->render('rt_dashboard', Array, true)
+#2 C:\xampp\htdocs\rtpintar\app\Controllers\RtDashboard.php(13): view('rt_dashboard', Array)
+#3 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\RtDashboard->index()
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RtDashboard))
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-11 22:08:54 --> authrt filter must have a matching alias defined.
+#0 C:\xampp\htdocs\rtpintar\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authrt')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('authrt', 'before')
+#2 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-11 22:09:24 --> authrt filter must have a matching alias defined.
+#0 C:\xampp\htdocs\rtpintar\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authrt')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('authrt', 'before')
+#2 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-11 22:09:33 --> authrt filter must have a matching alias defined.
+#0 C:\xampp\htdocs\rtpintar\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authrt')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('authrt', 'before')
+#2 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

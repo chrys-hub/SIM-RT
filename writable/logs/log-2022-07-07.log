@@ -1,0 +1,41 @@
+ERROR - 2022-07-07 12:24:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `keuangan`
+JOIN `kategori` ON `keuangan`.`id_kategori_uang` = `kategor...' at line 1
+CRITICAL - 2022-07-07 12:24:34 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\rtpintar\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\rtpintar\app\Models\KeuanganWargaModel.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\rtpintar\app\Controllers\KeuanganWarga.php(64): App\Models\KeuanganWargaModel->caridetailKeuangan('2022-06-01', '2022-07-31', 'semua', 'semua')
+#3 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\KeuanganWarga->caridetailKeuangan()
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeuanganWarga))
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-07-07 12:25:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `keuangan`
+JOIN `kategori` ON `keuangan`.`id_kategori_uang` = `kategor...' at line 1
+CRITICAL - 2022-07-07 12:25:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\rtpintar\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\rtpintar\app\Models\KeuanganWargaModel.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\rtpintar\app\Controllers\KeuanganWarga.php(64): App\Models\KeuanganWargaModel->caridetailKeuangan('2022-06-01', '2022-07-31', 'semua', 'semua')
+#3 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\KeuanganWarga->caridetailKeuangan()
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeuanganWarga))
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-07-07 12:26:58 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\KeuanganWarga->caridetailKeuangan()
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeuanganWarga))
+#2 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-07 12:57:44 --> Call to undefined method App\Models\KeuanganModel::rekap
+#0 C:\xampp\htdocs\rtpintar\app\Controllers\Keuangan.php(192): CodeIgniter\Model->__call('rekap', Array)
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\Keuangan->carikeuangan()
+#2 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

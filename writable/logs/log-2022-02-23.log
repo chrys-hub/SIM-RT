@@ -1,0 +1,169 @@
+CRITICAL - 2022-02-23 23:22:06 --> Class "CI_Controller" not found
+#0 C:\xampp\htdocs\rtpintar\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\rtpintar\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('loginAdmin')
+#2 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('loginAdmin')
+#3 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 23:22:29 --> Class "CI_Controller" not found
+#0 C:\xampp\htdocs\rtpintar\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\rtpintar\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('loginAdmin')
+#2 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('loginAdmin')
+#3 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 23:22:47 --> Class "CI_Controller" not found
+#0 C:\xampp\htdocs\rtpintar\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\rtpintar\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('LoginAdmin')
+#2 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('LoginAdmin')
+#3 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 23:23:46 --> Class "CI_Controller" not found
+#0 C:\xampp\htdocs\rtpintar\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\rtpintar\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('loginadmin')
+#2 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('loginadmin')
+#3 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 23:27:02 --> Class "CI_Controller" not found
+#0 C:\xampp\htdocs\rtpintar\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\rtpintar\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('LoginAdmin')
+#2 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('LoginAdmin')
+#3 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-02-23 23:49:21 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-02-23 23:49:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\rtpintar\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rtpintar\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\rtpintar\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rtpintar\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\rtpintar\app\Controllers\LoginAdmin.php(20): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\LoginAdmin->auth()
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+#7 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-23 23:49:48 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-23 23:50:33 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-23 23:50:35 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-23 23:50:36 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-23 23:50:37 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-23 23:51:11 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-23 23:51:12 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-23 23:51:13 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-02-23 23:51:25 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-02-23 23:51:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\rtpintar\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rtpintar\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\rtpintar\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rtpintar\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\rtpintar\app\Controllers\LoginAdmin.php(20): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\LoginAdmin->auth()
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+#7 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-23 23:53:25 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-02-23 23:53:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\rtpintar\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rtpintar\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\rtpintar\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rtpintar\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\rtpintar\app\Controllers\LoginAdmin.php(20): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\LoginAdmin->auth()
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+#7 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-23 23:53:41 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-02-23 23:53:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\rtpintar\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rtpintar\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\rtpintar\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rtpintar\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\rtpintar\app\Controllers\LoginAdmin.php(20): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\LoginAdmin->auth()
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+#7 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-23 23:54:31 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+ERROR - 2022-02-23 23:56:36 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-02-23 23:56:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\rtpintar\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\rtpintar\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\rtpintar\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\rtpintar\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\rtpintar\app\Controllers\LoginAdmin.php(20): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\LoginAdmin->auth()
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+#7 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

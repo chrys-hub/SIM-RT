@@ -1,0 +1,75 @@
+CRITICAL - 2022-04-09 21:14:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\rtpintar\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\rtpintar\system\Model.php(509): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\rtpintar\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#3 C:\xampp\htdocs\rtpintar\app\Controllers\Akunrt.php(16): CodeIgniter\BaseModel->paginate(2)
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\Akunrt->index()
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akunrt))
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-09 21:16:24 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\rtpintar\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\rtpintar\system\Model.php(509): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\rtpintar\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#3 C:\xampp\htdocs\rtpintar\app\Controllers\Akunrt.php(19): CodeIgniter\BaseModel->paginate(2)
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\Akunrt->index()
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akunrt))
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-09 21:18:13 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\rtpintar\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\rtpintar\system\Model.php(509): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\rtpintar\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#3 C:\xampp\htdocs\rtpintar\app\Controllers\Akunrt.php(18): CodeIgniter\BaseModel->paginate(2)
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\Akunrt->index()
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akunrt))
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-09 21:19:05 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\Akunrt->index()
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akunrt))
+#2 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-09 21:21:22 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\rtpintar\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\rtpintar\system\Model.php(509): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\rtpintar\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#3 C:\xampp\htdocs\rtpintar\app\Controllers\Akunrt.php(18): CodeIgniter\BaseModel->paginate(2)
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\Akunrt->index()
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akunrt))
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-09 21:21:48 --> Trying to get property 'nama_rt' of non-object
+#0 C:\xampp\htdocs\rtpintar\app\Views\akunrt_view.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\rtpintar\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rtpintar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rtpintar\system\Common.php(1089): CodeIgniter\View\View->render('akunrt_view', Array, true)
+#4 C:\xampp\htdocs\rtpintar\app\Controllers\Akunrt.php(22): view('akunrt_view', Array)
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\Akunrt->index()
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akunrt))
+#7 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-09 22:46:28 --> Undefined property: mysqli::$nama_rt
+#0 C:\xampp\htdocs\rtpintar\app\Views\akunrt_view.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\rtpintar\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rtpintar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rtpintar\system\Common.php(1089): CodeIgniter\View\View->render('akunrt_view', Array, true)
+#4 C:\xampp\htdocs\rtpintar\app\Controllers\Akunrt.php(19): view('akunrt_view', Array)
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\Akunrt->index()
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Akunrt))
+#7 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

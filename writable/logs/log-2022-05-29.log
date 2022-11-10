@@ -1,0 +1,22 @@
+CRITICAL - 2022-05-29 05:59:10 --> Invalid file: tambahkategori.php
+#0 C:\xampp\htdocs\rtpintar\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambahkategori....')
+#1 C:\xampp\htdocs\rtpintar\system\Common.php(1089): CodeIgniter\View\View->render('tambahkategori', Array, true)
+#2 C:\xampp\htdocs\rtpintar\app\Controllers\Kategori.php(27): view('tambahkategori', Array)
+#3 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\Kategori->index()
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-29 06:24:28 --> Undefined index: status
+#0 C:\xampp\htdocs\rtpintar\app\Views\kategori_view.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\rtpintar\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\rtpintar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\rtpintar\system\Common.php(1089): CodeIgniter\View\View->render('kategori_view', Array, true)
+#4 C:\xampp\htdocs\rtpintar\app\Controllers\Kategori.php(27): view('kategori_view', Array)
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\Kategori->index()
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

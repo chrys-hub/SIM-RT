@@ -1,0 +1,10 @@
+CRITICAL - 2022-06-02 07:54:17 --> Invalid file: search_keuangan_view.php
+#0 C:\xampp\htdocs\rtpintar\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('search_keuangan...')
+#1 C:\xampp\htdocs\rtpintar\system\Common.php(1089): CodeIgniter\View\View->render('search_keuangan...', Array, true)
+#2 C:\xampp\htdocs\rtpintar\app\Controllers\Keuangan.php(124): view('search_keuangan...', Array)
+#3 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\Keuangan->carikeuangan()
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

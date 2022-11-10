@@ -1,0 +1,63 @@
+CRITICAL - 2022-06-28 03:28:43 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\rtpintar\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rtpintar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rtpintar\system\Common.php(1089): CodeIgniter\View\View->render('login_warga', Array, true)
+#3 C:\xampp\htdocs\rtpintar\app\Controllers\LoginWarga.php(16): view('login_warga', Array)
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\LoginWarga->index()
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginWarga))
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-28 03:33:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\rtpintar\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rtpintar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rtpintar\system\Common.php(1089): CodeIgniter\View\View->render('login_warga', Array, true)
+#3 C:\xampp\htdocs\rtpintar\app\Controllers\LoginWarga.php(16): view('login_warga', Array)
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\LoginWarga->index()
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginWarga))
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-28 03:39:29 --> Call to undefined method App\Models\DesaModel::getResultArray
+#0 C:\xampp\htdocs\rtpintar\app\Controllers\LoginWarga.php(16): CodeIgniter\Model->__call('getResultArray', Array)
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\LoginWarga->index()
+#2 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginWarga))
+#3 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-28 03:41:05 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rtpintar\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rtpintar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rtpintar\system\Common.php(1089): CodeIgniter\View\View->render('login_warga', Array, true)
+#3 C:\xampp\htdocs\rtpintar\app\Controllers\LoginWarga.php(17): view('login_warga', Array)
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\LoginWarga->index()
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginWarga))
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-28 03:41:36 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rtpintar\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rtpintar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rtpintar\system\Common.php(1089): CodeIgniter\View\View->render('login_warga', Array, true)
+#3 C:\xampp\htdocs\rtpintar\app\Controllers\LoginWarga.php(17): view('login_warga', Array)
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\LoginWarga->index()
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginWarga))
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-28 03:42:38 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\rtpintar\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\rtpintar\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\rtpintar\system\Common.php(1089): CodeIgniter\View\View->render('login_warga', Array, true)
+#3 C:\xampp\htdocs\rtpintar\app\Controllers\LoginWarga.php(17): view('login_warga', Array)
+#4 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\LoginWarga->index()
+#5 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginWarga))
+#6 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

@@ -1,0 +1,38 @@
+CRITICAL - 2022-02-24 05:59:30 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\rtpintar\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\rtpintar\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-24 00:00:52 --> Undefined array key "admin_password"
+#0 C:\xampp\htdocs\rtpintar\app\Controllers\LoginAdmin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\LoginAdmin->auth()
+#2 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginAdmin))
+#3 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-24 00:02:29 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-24 00:17:39 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-24 00:20:11 --> Class "CodeIgniter\Filters\Auth" not found
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-24 00:20:12 --> Class "CodeIgniter\Filters\Auth" not found
+#0 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}

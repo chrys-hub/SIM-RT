@@ -1,0 +1,8 @@
+CRITICAL - 2022-05-17 06:58:31 --> Undefined index: id_desa_akun_rt
+#0 C:\xampp\htdocs\rtpintar\app\Controllers\LoginRt.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(825): App\Controllers\LoginRt->authrt()
+#2 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginRt))
+#3 C:\xampp\htdocs\rtpintar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\rtpintar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\rtpintar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
